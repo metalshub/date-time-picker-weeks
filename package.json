@@ -1,7 +1,7 @@
 {
   "name": "@fabianrios/angular-datetime-picker",
-  "version": "17.0.0",
-  "description": "Angular Date Time Picker",
+  "version": "17.0.1",
+  "description": "Angular Date Time Picker with Calendar weeks",
   "keywords": [
     "Angular",
     "datepicker",
@@ -29,7 +29,8 @@
     "build_css_onLinux": "mkdir -p dist/picker/assets/style && sass --output-style=compressed projects/picker/src/sass/picker.scss > dist/picker/assets/style/picker.min.css",
     "npm_pack": "cd dist/picker && npm pack",
     "package_windows": "npm run build_lib_onWindows && npm run build_css_onWindows && npm run npm_pack",
-    "package_linux": "npm run build_lib && npm run build_css_onLinux && npm run npm_pack"
+    "package_linux": "npm run build_lib_onLinux && npm run build_css_onLinux && npm run npm_pack",
+    "pub": "npm run package_linux && cd dist/picker && echo 'NOW EXEC cd dist/picker && npm publish'"
   },
   "repository": {
     "type": "git",
@@ -77,9 +78,5 @@
     "ts-node": "^10.9.1",
     "tslint": "^6.1.3",
     "typescript": "~5.2.2"
-  },
-  "bugs": {
-    "url": "https://github.com/metalshub/date-time-picker-weeks/issues"
-  },
-  "homepage": "https://github.com/metalshub/date-time-picker-weeks#readme"
+  }
 }

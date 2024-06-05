@@ -49,6 +49,7 @@
     "moment-timezone": "^0.5.43",
     "np": "^8.0.4",
     "rxjs": "^7.8.1",
+    "sass": "^1.77.4",
     "tslib": "^2.4.0",
     "uuid": "^9.0.1",
     "zone.js": "^0.14.2"
@@ -72,7 +73,6 @@
     "karma-jasmine": "~5.0.0",
     "karma-jasmine-html-reporter": "^1.7.0",
     "ng-packagr": "^17.0.2",
-    "node-sass": "^9.0.0",
     "protractor": "~7.0.0",
     "ts-node": "^10.9.1",
     "tslint": "^6.1.3",

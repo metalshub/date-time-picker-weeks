@@ -6,7 +6,8 @@
             "enabled": true,
             "path": ".cache",
             "environment": "all"
-        }
+        },
+        "analytics": "06a560b8-efa1-48e5-8f23-eb698038bf07"
     },
     "newProjectRoot": "projects",
     "projects": {

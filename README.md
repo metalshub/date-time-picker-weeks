@@ -1,8 +1,8 @@
-:date: :clock1: Angular Date/Time Picker
+:date: :clock1: Angular Date/Time Picker with Calendar Weeks support
 ========================
 
-[![npm](https://img.shields.io/npm/v/@danielmoncada/angular-datetime-picker.svg?maxAge=2592000?style=flat-square)](https://www.npmjs.com/package/@danielmoncada/angular-datetime-picker)
-[![npm](https://img.shields.io/npm/dm/@danielmoncada/angular-datetime-picker.svg)](https://www.npmjs.com/package/@danielmoncada/angular-datetime-picker)
+[![npm](https://img.shields.io/npm/v/@fabianrios/angular-datetime-picker.svg?maxAge=2592000?style=flat-square)](https://www.npmjs.com/package/@fabianrios/angular-datetime-picker)
+[![npm](https://img.shields.io/npm/dm/@fabianrios/angular-datetime-picker.svg)](https://www.npmjs.com/package/@fabianrios/angular-datetime-picker)
 
 **The current version of this package supports Angular 17**
 

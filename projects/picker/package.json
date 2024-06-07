@@ -1,7 +1,7 @@
 {
   "name": "@fabianrios/angular-datetime-picker",
-  "version": "17.0.2",
-  "description": "Angular Date Time Picker",
+  "version": "17.0.3",
+  "description": "Angular Date Time Picker with Calendar weeks",
   "keywords": [
     "Angular",
     "datepicker",
@@ -13,13 +13,13 @@
     "material",
     "ngx"
   ],
-  "author": "Maintained and updated by Daniel Moncada, original implementatiom by Daniel Pan",
+  "author": "Maintained and updated by Fabián Ríos on fork implementation by Daniel Moncada, original implementatiom by Daniel Pan",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/danielmoncada/date-time-picker.git"
+    "url": "git+https://github.com/metalshub/date-time-picker-weeks.git"
   },
-  "homepage": "https://github.com/danielmoncada/date-time-picker",
+  "homepage": "https://github.com/metalshub/date-time-picker-weeks",
   "publishConfig": {
     "access": "public"
   },
